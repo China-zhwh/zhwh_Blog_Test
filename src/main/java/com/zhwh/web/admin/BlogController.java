@@ -51,7 +51,6 @@ public class BlogController {
         return "admin/blogs :: blogList";
     }
 
-
     @GetMapping("/blogs/input")
     public String input(Model model) {
         setTypeAndTag(model);
@@ -64,7 +63,6 @@ public class BlogController {
         model.addAttribute("tags", tagService.listTag());
     }
 
-
     @GetMapping("/blogs/{id}/input")
     public String editInput(@PathVariable Long id, Model model) {
         setTypeAndTag(model);
@@ -73,8 +71,6 @@ public class BlogController {
         model.addAttribute("blog",blog);
         return INPUT;
     }
-
-
 
     @PostMapping("/blogs")
     public String post(Blog blog, RedirectAttributes attributes, HttpSession session) {
@@ -95,7 +91,6 @@ public class BlogController {
         }
         return REDIRECT_LIST;
     }
-
 
     @GetMapping("/blogs/{id}/delete")
     public String delete(@PathVariable Long id,RedirectAttributes attributes) {
