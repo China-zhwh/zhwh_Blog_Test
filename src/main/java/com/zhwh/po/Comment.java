@@ -31,6 +31,9 @@ public class Comment {
     @ManyToOne
     private Comment parentComment;
 
+    // 是否是管理员
+    private boolean adminComment;
+
     public Blog getBlog() {
         return blog;
     }
