@@ -5,6 +5,7 @@ import com.zhwh.po.Blog;
 import com.zhwh.po.Type;
 import com.zhwh.repository.BlogRepository;
 import com.zhwh.service.BlogService;
+import com.zhwh.util.MarkdownUtils;
 import com.zhwh.util.MyBeanUtils;
 import com.zhwh.vo.BlogVo;
 import org.springframework.beans.BeanUtils;
@@ -34,6 +35,19 @@ public class BlogServiceImpl implements BlogService {
     @Override
     public Blog getBlog(Long id) {
         return blogRepository.findById(id).orElse(null);
+    }
+
+    @Override
+    public Blog getAndConvert(Long id) {
+        Blog blog = blogRepository.findById(id).orElse(null);
+        if (blog == null) {
+            throw new NotFoundException("该博客不存在");
+        }
+        Blog b = new Blog();
+        BeanUtils.copyProperties(blog,b);
+        String content = b.getContent();
+        b.setContent(MarkdownUtils.markdownToHtmlExtensions(content));
+        return b;
     }
 
     @Override
