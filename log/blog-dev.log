@@ -839,3 +839,265 @@ Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving temp
 2020-02-23 11:12:37.219  INFO 7900 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2020-02-23 11:12:37.784  INFO 7900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2020-02-23 11:12:37.787  INFO 7900 --- [restartedMain] com.zhwh.ZhwhBlogApplication             : Started ZhwhBlogApplication in 5.78 seconds (JVM running for 6.952)
+2020-02-23 12:57:25.829  INFO 17804 --- [restartedMain] com.zhwh.ZhwhBlogApplication             : Starting ZhwhBlogApplication on DESKTOP-4UD2PA3 with PID 17804 (D:\IDEA-workspace\zhwh_Blog_Test\target\classes started by zhwh in D:\IDEA-workspace\zhwh_Blog_Test)
+2020-02-23 12:57:25.833  INFO 17804 --- [restartedMain] com.zhwh.ZhwhBlogApplication             : The following profiles are active: dev
+2020-02-23 12:57:25.955  INFO 17804 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\zhwh\m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-23 12:57:25.956  INFO 17804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-23 12:57:25.956  INFO 17804 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-23 12:57:26.850  INFO 17804 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-23 12:57:26.937  INFO 17804 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78ms. Found 5 JPA repository interfaces.
+2020-02-23 12:57:27.250  INFO 17804 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-23 12:57:27.705  INFO 17804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-23 12:57:27.714  INFO 17804 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-23 12:57:27.714  INFO 17804 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-23 12:57:27.802  INFO 17804 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-23 12:57:27.803  INFO 17804 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1847 ms
+2020-02-23 12:57:28.073  INFO 17804 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-23 12:57:28.129  INFO 17804 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-23 12:57:28.227  INFO 17804 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-23 12:57:28.312  INFO 17804 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-23 12:57:28.420  INFO 17804 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-23 12:57:28.434  INFO 17804 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-23 12:57:29.163  INFO 17804 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-23 12:57:29.169  INFO 17804 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-23 12:57:29.227  INFO 17804 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-23 12:57:30.068  WARN 17804 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-23 12:57:30.316  INFO 17804 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-23 12:57:30.412  INFO 17804 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-23 12:57:30.713  INFO 17804 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-23 12:57:30.716  INFO 17804 --- [restartedMain] com.zhwh.ZhwhBlogApplication             : Started ZhwhBlogApplication in 5.654 seconds (JVM running for 6.889)
+2020-02-23 12:59:09.366  INFO 17804 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-23 12:59:09.367  INFO 17804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-23 12:59:09.382  INFO 17804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-02-23 12:59:09.417  INFO 17804 --- [http-nio-8080-exec-1] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zhwh.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-23 12:59:09.752  WARN 17804 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-23 12:59:09.772  WARN 17804 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-23 12:59:09.780  INFO 17804 --- [http-nio-8080-exec-1] com.zhwh.aspect.LogAspect                : Result : index
+2020-02-23 12:59:14.711  INFO 17804 --- [http-nio-8080-exec-2] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-23 12:59:14.782  INFO 17804 --- [http-nio-8080-exec-2] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 12:59:21.455  INFO 17804 --- [http-nio-8080-exec-7] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/3', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-02-23 12:59:21.465  INFO 17804 --- [http-nio-8080-exec-7] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 12:59:25.164  INFO 17804 --- [http-nio-8080-exec-4] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/4', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 4, {}]}
+2020-02-23 12:59:25.175  INFO 17804 --- [http-nio-8080-exec-4] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 12:59:27.810  INFO 17804 --- [http-nio-8080-exec-1] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/2', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2020-02-23 12:59:27.818  INFO 17804 --- [http-nio-8080-exec-1] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 12:59:30.612  INFO 17804 --- [http-nio-8080-exec-8] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/4', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 4, {}]}
+2020-02-23 12:59:30.630  INFO 17804 --- [http-nio-8080-exec-8] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 12:59:32.089  INFO 17804 --- [http-nio-8080-exec-2] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/3', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-02-23 12:59:32.096  INFO 17804 --- [http-nio-8080-exec-2] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 12:59:36.044  INFO 17804 --- [http-nio-8080-exec-10] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/1', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 1, {}]}
+2020-02-23 12:59:36.053  INFO 17804 --- [http-nio-8080-exec-10] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 12:59:38.296  INFO 17804 --- [http-nio-8080-exec-3] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/3', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2020-02-23 12:59:38.305  INFO 17804 --- [http-nio-8080-exec-3] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 12:59:39.897  INFO 17804 --- [http-nio-8080-exec-5] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/1', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 1, {}]}
+2020-02-23 12:59:39.904  INFO 17804 --- [http-nio-8080-exec-5] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 12:59:42.198  INFO 17804 --- [http-nio-8080-exec-8] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/tags/-1', ip='127.0.0.1', classMethod='com.zhwh.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-23 12:59:42.320  INFO 17804 --- [http-nio-8080-exec-8] com.zhwh.aspect.LogAspect                : Result : tags
+2020-02-23 12:59:54.588  INFO 17804 --- [http-nio-8080-exec-10] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/tags/5', ip='127.0.0.1', classMethod='com.zhwh.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 5, {}]}
+2020-02-23 12:59:54.597  INFO 17804 --- [http-nio-8080-exec-10] com.zhwh.aspect.LogAspect                : Result : tags
+2020-02-23 12:59:58.961  INFO 17804 --- [http-nio-8080-exec-3] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/tags/7', ip='127.0.0.1', classMethod='com.zhwh.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 7, {}]}
+2020-02-23 12:59:58.972  INFO 17804 --- [http-nio-8080-exec-3] com.zhwh.aspect.LogAspect                : Result : tags
+2020-02-23 13:00:03.945  INFO 17804 --- [http-nio-8080-exec-1] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/tags/9', ip='127.0.0.1', classMethod='com.zhwh.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 9, {}]}
+2020-02-23 13:00:03.951  INFO 17804 --- [http-nio-8080-exec-1] com.zhwh.aspect.LogAspect                : Result : tags
+2020-02-23 13:00:07.210  INFO 17804 --- [http-nio-8080-exec-6] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/tags/6', ip='127.0.0.1', classMethod='com.zhwh.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 6, {}]}
+2020-02-23 13:00:07.220  INFO 17804 --- [http-nio-8080-exec-6] com.zhwh.aspect.LogAspect                : Result : tags
+2020-02-23 13:00:10.249  INFO 17804 --- [http-nio-8080-exec-7] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-23 13:00:10.257  INFO 17804 --- [http-nio-8080-exec-7] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 13:23:46.708  INFO 6524 --- [restartedMain] com.zhwh.ZhwhBlogApplication             : Starting ZhwhBlogApplication on DESKTOP-4UD2PA3 with PID 6524 (D:\IDEA-workspace\zhwh_Blog_Test\target\classes started by zhwh in D:\IDEA-workspace\zhwh_Blog_Test)
+2020-02-23 13:23:46.711  INFO 6524 --- [restartedMain] com.zhwh.ZhwhBlogApplication             : The following profiles are active: dev
+2020-02-23 13:23:46.768  INFO 6524 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\zhwh\m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-23 13:23:46.769  INFO 6524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-23 13:23:46.769  INFO 6524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-23 13:23:47.546  INFO 6524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-23 13:23:47.651  INFO 6524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95ms. Found 5 JPA repository interfaces.
+2020-02-23 13:23:47.951  INFO 6524 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-23 13:23:48.388  INFO 6524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-23 13:23:48.396  INFO 6524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-23 13:23:48.396  INFO 6524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-23 13:23:48.501  INFO 6524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-23 13:23:48.501  INFO 6524 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1732 ms
+2020-02-23 13:23:48.766  INFO 6524 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-23 13:23:48.821  INFO 6524 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-23 13:23:48.918  INFO 6524 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-23 13:23:49.019  INFO 6524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-23 13:23:49.144  INFO 6524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-23 13:23:49.160  INFO 6524 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-23 13:23:49.967  INFO 6524 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-23 13:23:49.973  INFO 6524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-23 13:23:50.027  INFO 6524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-23 13:23:51.199  WARN 6524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-23 13:23:51.446  INFO 6524 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-23 13:23:51.550  INFO 6524 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-23 13:23:52.072  INFO 6524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-23 13:23:52.075  INFO 6524 --- [restartedMain] com.zhwh.ZhwhBlogApplication             : Started ZhwhBlogApplication in 6.189 seconds (JVM running for 7.311)
+2020-02-23 13:24:25.371  INFO 6524 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-23 13:24:25.372  INFO 6524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-23 13:24:25.391  INFO 6524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-02-23 13:24:25.423  INFO 6524 --- [http-nio-8080-exec-1] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zhwh.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-23 13:24:25.522  WARN 6524 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-23 13:24:25.537  WARN 6524 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-23 13:24:25.542  INFO 6524 --- [http-nio-8080-exec-1] com.zhwh.aspect.LogAspect                : Result : index
+2020-02-23 13:24:29.374  INFO 6524 --- [http-nio-8080-exec-6] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-23 13:24:29.392  INFO 6524 --- [http-nio-8080-exec-6] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 13:24:33.198  INFO 6524 --- [http-nio-8080-exec-3] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/tags/-1', ip='127.0.0.1', classMethod='com.zhwh.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-23 13:24:33.226  INFO 6524 --- [http-nio-8080-exec-3] com.zhwh.aspect.LogAspect                : Result : tags
+2020-02-23 13:24:37.419  INFO 6524 --- [http-nio-8080-exec-7] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-23 13:24:37.428  INFO 6524 --- [http-nio-8080-exec-7] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 13:24:39.361  INFO 6524 --- [http-nio-8080-exec-1] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/tags/-1', ip='127.0.0.1', classMethod='com.zhwh.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-23 13:24:39.382  INFO 6524 --- [http-nio-8080-exec-1] com.zhwh.aspect.LogAspect                : Result : tags
+2020-02-23 13:24:42.834  INFO 6524 --- [http-nio-8080-exec-5] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-23 13:24:42.841  INFO 6524 --- [http-nio-8080-exec-5] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 13:24:45.538  INFO 6524 --- [http-nio-8080-exec-4] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/tags/-1', ip='127.0.0.1', classMethod='com.zhwh.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-23 13:24:45.549  INFO 6524 --- [http-nio-8080-exec-4] com.zhwh.aspect.LogAspect                : Result : tags
+2020-02-23 13:24:47.994  INFO 6524 --- [http-nio-8080-exec-2] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.zhwh.web.ArchiveShowController.archives', args=[{}]}
+2020-02-23 13:24:48.012  INFO 6524 --- [http-nio-8080-exec-2] com.zhwh.aspect.LogAspect                : Result : archives
+2020-02-23 13:24:48.017 ERROR 6524 --- [http-nio-8080-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-2] Exception processing template "archives": Error resolving template [archives], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [archives], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-02-23 13:24:48.019 ERROR 6524 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [archives], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [archives], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-02-23 13:26:05.387  INFO 13276 --- [restartedMain] com.zhwh.ZhwhBlogApplication             : Starting ZhwhBlogApplication on DESKTOP-4UD2PA3 with PID 13276 (D:\IDEA-workspace\zhwh_Blog_Test\target\classes started by zhwh in D:\IDEA-workspace\zhwh_Blog_Test)
+2020-02-23 13:26:05.391  INFO 13276 --- [restartedMain] com.zhwh.ZhwhBlogApplication             : The following profiles are active: dev
+2020-02-23 13:26:05.468  INFO 13276 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\zhwh\m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/zhwh/m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-23 13:26:05.468  INFO 13276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-23 13:26:05.469  INFO 13276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-23 13:26:06.395  INFO 13276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-23 13:26:06.491  INFO 13276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86ms. Found 5 JPA repository interfaces.
+2020-02-23 13:26:06.842  INFO 13276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-23 13:26:07.283  INFO 13276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-23 13:26:07.291  INFO 13276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-23 13:26:07.292  INFO 13276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-23 13:26:07.390  INFO 13276 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-23 13:26:07.390  INFO 13276 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1921 ms
+2020-02-23 13:26:07.658  INFO 13276 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-23 13:26:07.712  INFO 13276 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-23 13:26:07.808  INFO 13276 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-23 13:26:07.892  INFO 13276 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-23 13:26:07.998  INFO 13276 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-23 13:26:08.014  INFO 13276 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-23 13:26:08.752  INFO 13276 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-23 13:26:08.758  INFO 13276 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-23 13:26:08.813  INFO 13276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-02-23 13:26:09.626  WARN 13276 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-23 13:26:09.822  INFO 13276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-23 13:26:09.921  INFO 13276 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-23 13:26:10.434  INFO 13276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-23 13:26:10.437  INFO 13276 --- [restartedMain] com.zhwh.ZhwhBlogApplication             : Started ZhwhBlogApplication in 5.805 seconds (JVM running for 7.039)
+2020-02-23 13:27:02.904  INFO 13276 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-23 13:27:02.904  INFO 13276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-23 13:27:02.922  INFO 13276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-02-23 13:27:02.957  INFO 13276 --- [http-nio-8080-exec-1] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.zhwh.web.ArchiveShowController.archives', args=[{}]}
+2020-02-23 13:27:03.054  INFO 13276 --- [http-nio-8080-exec-1] com.zhwh.aspect.LogAspect                : Result : archives
+2020-02-23 13:27:06.824  INFO 13276 --- [http-nio-8080-exec-7] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zhwh.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-02-23 13:27:06.858  WARN 13276 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-23 13:27:06.869  WARN 13276 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-02-23 13:27:06.874  INFO 13276 --- [http-nio-8080-exec-7] com.zhwh.aspect.LogAspect                : Result : index
+2020-02-23 13:27:08.795  INFO 13276 --- [http-nio-8080-exec-3] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='com.zhwh.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-23 13:27:08.811  INFO 13276 --- [http-nio-8080-exec-3] com.zhwh.aspect.LogAspect                : Result : types
+2020-02-23 13:27:10.529  INFO 13276 --- [http-nio-8080-exec-2] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/tags/-1', ip='127.0.0.1', classMethod='com.zhwh.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-02-23 13:27:10.557  INFO 13276 --- [http-nio-8080-exec-2] com.zhwh.aspect.LogAspect                : Result : tags
+2020-02-23 13:27:12.506  INFO 13276 --- [http-nio-8080-exec-8] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.zhwh.web.ArchiveShowController.archives', args=[{}]}
+2020-02-23 13:27:12.517  INFO 13276 --- [http-nio-8080-exec-8] com.zhwh.aspect.LogAspect                : Result : archives
+2020-02-23 13:27:15.982  INFO 13276 --- [http-nio-8080-exec-6] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/blog/11', ip='127.0.0.1', classMethod='com.zhwh.web.IndexController.blog', args=[11, {}]}
+2020-02-23 13:27:16.162  INFO 13276 --- [http-nio-8080-exec-6] com.zhwh.aspect.LogAspect                : Result : blog
+2020-02-23 13:27:17.374  INFO 13276 --- [http-nio-8080-exec-4] com.zhwh.aspect.LogAspect                : Request : {url='http://127.0.0.1:8080/comments/11', ip='127.0.0.1', classMethod='com.zhwh.web.CommentController.comments', args=[11, {}]}
+2020-02-23 13:27:17.403  INFO 13276 --- [http-nio-8080-exec-4] com.zhwh.aspect.LogAspect                : Result : blog :: commentList
